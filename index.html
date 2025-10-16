@@ -36,7 +36,7 @@
             display: block; /* Uklanja podrazumevani prazan prostor ispod slike */
             margin: 20px auto; /* Centriranje slike i dodavanje margina gore/dole */
             border-radius: 8px; /* Mali zaobljeni uglovi */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Blaga senka */
+			border: none;
         }
 
         /*
@@ -82,7 +82,7 @@
         <img src="images/radovi-u-toku.jpg" alt="Radovi u toku - majstorica" class="responsive-image">
 
         <div class="video-container">
-            <video controls class="responsive-video">
+            <video autoplay loop muted class="responsive-video">
                 <source src="video/radovi-u-toku.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -96,3 +96,4 @@
 
 </body>
 </html>
+
